@@ -65,7 +65,10 @@ if __name__ == "__main__":
     role_set = set([result.metadata.get('row', []) for result in results_role])
     about_set = set([result.metadata.get('row', []) for result in results_about])
     teck_stack_set = set([result.metadata.get('row', []) for result in results_tech_stack])
+
+    # filter resumes that match
     matches_all_set = role_set & about_set & teck_stack_set
+    matches_all_resumes = [doc for doc in resume_documents if doc.metadata["row"] in matches_all_set]
 
     print(f"must have: {must_have_set}")
     print(f"matches role: {role_set}")
@@ -84,8 +87,8 @@ if __name__ == "__main__":
     """)
     screening_chain = SCREEN_PROMPT | llm | StrOutputParser()
 
-    # screen the first 5 for must have criteria
-    for result in results_must_have[:20]:
+    # screen for must-have criteria
+    for result in matches_all_resumes:
         row = result.metadata.get("row", 0)
         resume = resume_documents[row].page_content
         criteria = data["must have"]
