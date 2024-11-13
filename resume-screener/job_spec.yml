@@ -1,0 +1,43 @@
+role match: "The Senior Software Engineer's primary responsibility is to develop high-quality, top-tier software that seamlessly integrates with the ICE Encompass Platform. This role must identify, and execute tasks in the software development life cycle, review and debug code, and collaborate with internal teams. They will also provide technical guidance, mentorship, and project management expertise to deliver successful software projects. This role reports to the VP of Engineering.
+What You’ll Own
+Create new and improved product designs according to requirements coordinated with sales and marketing departments.
+Oversee the transition from design into production, including any necessary testing and training required for implementing new or changed designs. May also be required to evaluate internal tooling and facility capabilities when assessing the cost-effectiveness of a new design.
+Oversee the prototyping and testing of new designs, including the interpretation of test results. May be required to set up and run test equipment.
+Conduct and/or review the testing of new designs, interpreting test data, and recommending necessary corrective action based on test data.
+Maintain accurate and current documentation on design changes and requests.
+Resolve production and/or field problems as needed.
+Utilize Teamwork (Project Management software) / Azure DevOps daily to maintain detailed documentation within the Project as well as daily documentation of time and hours." 
+
+about you: "At least 5 years experience as a developer
+Minimum 2 years as a developer for ICE Encompass Software required
+Bachelor’s degree in Computer Science, or a closely related IT field preferred
+Strong foundation in cloud-native development
+Experience with the following:
+REST/GraphQL API development with JavaScript
+Front-end technologies and frameworks such as JavaScript, Node.js, and React
+AWS technologies including Kubernetes, ECS, EventBridge, Lambda, Docker, DynamoDB, Aurora RDS, Redis, Code Deploy, etc.
+Authentication and Authorization (OAuth, JWT, etc.)
+Encompass Platform usage a plus
+Infrastructure as Code (IAC) using Terraform
+Continuous Integration and Continuous Delivery (CI/CD) pipelines with GitHub Actions, Feature Flags, and Semantic versioning
+Secure coding best practices for OWASP and CWE compliance
+Azure DevOps Boards
+API Key Management: Obtaining and using API keys for authentication
+Complex webhooks workflows including processing of loan events
+Writing SQL queries and interacting with databases
+Testing including Unit Tests, Code Coverage, Postman/Newman Proficiency, and experience with Jest/NUnit/XUnit 
+"
+
+tech stack: "Agile Environment
+AWS
+TypeScript
+.NET / NodeJS
+HTML/CSS/JS and React
+RESTful API / GraphQL API
+SQL / NoSQL
+Terraform
+XML/JSON
+Encompass"
+
+must have: "Experience Writing SQL queries and interacting with databases
+At least 5 years experience as a developer, or 3 years with a graduate degree"
