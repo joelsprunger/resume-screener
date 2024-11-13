@@ -64,16 +64,16 @@ if __name__ == "__main__":
     must_have_set = set([result.metadata.get('row', []) for result in results_role])
     role_set = set([result.metadata.get('row', []) for result in results_role])
     about_set = set([result.metadata.get('row', []) for result in results_about])
-    teck_stack_set = set([result.metadata.get('row', []) for result in results_tech_stack])
+    tech_stack_set = set([result.metadata.get('row', []) for result in results_tech_stack])
 
     # filter resumes that match
-    matches_all_set = role_set & about_set & teck_stack_set
+    matches_all_set = role_set & about_set & tech_stack_set
     matches_all_resumes = [doc for doc in resume_documents if doc.metadata["row"] in matches_all_set]
 
     print(f"must have: {must_have_set}")
     print(f"matches role: {role_set}")
     print(f"matches about: {about_set}")
-    print(f"matches tech stack: {teck_stack_set}")
+    print(f"matches tech stack: {tech_stack_set}")
     print(f"matches all: {matches_all_set}")
 
     llm = ChatOpenAI(model_name='gpt-4o', temperature=0)
