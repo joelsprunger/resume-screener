@@ -19,4 +19,4 @@ export OPENAI_API_KEY=*******your***key***
 python resume-screener/screener.py
 ```
 
-This script uses Langchain, so if you want to switch from an OpenAI model to Anthropic, Groq, Cohere, or many others this is a simple change.
+This script uses LangChain, so if you want to switch from an OpenAI model to Anthropic, Groq, Cohere, or many others this is a simple change.
